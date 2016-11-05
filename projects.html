@@ -23,7 +23,57 @@
 
   <main>
 
-    <h2>Projects</h2>
+    <h2>High Speed Rail Project</h2>
+
+    <br/><br/>
+
+    <form name="hsr" action="https://httpbin.org/post" method="post">
+
+      <fieldset>
+        <div>
+          <label>Enter name:</label>
+          <input type="text" name="name">
+          <br />
+        </div>
+
+        <div>
+          <label>Email:</label>
+          <input type="email" name="email">
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <div>
+          <label>Have you ridden High Speed Rail?</label>
+          <input type="radio" name="hsr_answer" value="yes"/> Yes
+          <input type="radio" name="hsr_answer" value="no"/> No
+          <br/>
+        </div>
+
+        <div>
+          <label>If yes, where have you ridden HSR?:</label>
+
+          <input type="checkbox" name="location" value="France"> France
+          <input type="checkbox" name="location" value="Germany"> Germany
+          <input type="checkbox" name="location" value="Spain"> Spain
+          <input type="checkbox" name="location" value="UK"> UK
+          <input type="checkbox" name="location" value="Russia"> Russia
+          <input type="checkbox" name="location" value="Other Europe"> Other Europe
+          <input type="checkbox" name="location" value="Middle East"> Middle East
+          <input type="checkbox" name="location" value="Japan"> Japan
+          <input type="checkbox" name="location" value="China"> China
+          <input type="checkbox" name="location" value="Taiwan"> Taiwan
+          <input type="checkbox" name="location" value="Other Asia"> Other Asia
+          <input type="checkbox" name="location" value="USA"> USA!?
+          <input type="checkbox" name="location" value="Other"> Other
+          <br/>
+            
+        </div>
+
+      </fieldset>
+      
+       <button type="submit"> Submit your questionnaire </button>
+    </form>
     
     
   </main>
