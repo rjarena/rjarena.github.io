@@ -5,14 +5,14 @@
   body {
     
     font-family: Lato, Calibri, sans-serif;
-    
     margin-bottom: 4em;
     min-width: 420px;
+    padding: 0 0 5 0;
     }
 
   a {text-decoration: none;}
   img {max-width: 100%;}
-  p {font: 1.5em;}
+  p {font: 1em;}
 
   
   header {
@@ -62,7 +62,6 @@
   nav a {
     text-decoration: none;
     font-weight: bold;
-    color:white;
     padding: 1.5em .5em;
     }
   nav a:link {color: white;}
