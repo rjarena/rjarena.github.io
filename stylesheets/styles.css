@@ -5,8 +5,8 @@
   body {
     
     font-family: Lato, Calibri, sans-serif;
-    color:maroon;
-    margin-bottom: 3em;
+    
+    margin-bottom: 4em;
     min-width: 420px;
     }
 
@@ -15,7 +15,7 @@
   p {font: 1.5em;}
 
   
-  #header {
+  header {
     float: left;
     width: 100%;
     margin: -2em 0 0 0;
@@ -26,14 +26,14 @@
 
   
 
-  h1 {
+  header h1 {
     color: white;
     margin: 1em 0 0 0;
     font-weight: bold;
     line-height: 1.5em;
     }
 
-  h3 {
+  header h3 {
    color: white;
    font-weight: bold;
    font-style: italic;
@@ -66,9 +66,10 @@
     padding: 1.5em .5em;
     }
   nav a:link {color: white;}
+  nav a:visited {color: red;}
   nav a:hover {color: yellow;}
   nav a:active {color: green;}
-  nav a:visited {color: red;}
+  
 
 
   footer {
@@ -81,10 +82,14 @@
     width: 100%;
     margin 5% 3% 2% 3%;
     padding: .5em 0 0 .5em;
-    height: 4em;
+    height: 2em;
     line-height: 1.5em;
   }
 
+  footer a:link {color: white;}
+  footer a:visited {color: red;}
+  footer a:hover {color: yellow;}
+  footer a:active {color: green;}
   
 
   .contact {
