@@ -1,7 +1,6 @@
 <style type="text/css">
 <!-- Style Sheet for RJA main -->
 
-
   body {
     
     font-family: Lato, Calibri, sans-serif;
@@ -9,6 +8,8 @@
     min-width: 420px;
     padding: 0 0 5 0;
     }
+
+
 
   a {text-decoration: none;}
   img {max-width: 100%;}
@@ -72,6 +73,7 @@
 
 
   footer {
+    font-family: Times, serif;
     position:fixed;
     bottom: 0;
     text-align: center;
@@ -111,4 +113,10 @@
     font-size: 1em
   }
 
+  @media screen and (max-width: 768px) {
+
+    nav {
+      font-size: 1em; 
+    }
+  } 
  </style>
